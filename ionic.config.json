@@ -1,5 +1,7 @@
 {
-  "name": "ioBer",
-  "integrations": {},
+  "name": "radarpet",
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }

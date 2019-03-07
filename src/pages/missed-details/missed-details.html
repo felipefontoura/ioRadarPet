@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{ pet.name }} foi perdido</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <img [src]="pet.photo"/>
+  <p text-center>{{ pet.description }}</p>
+  <h2 text-center>Dono(a): <strong>{{ pet.contact.name }}</strong></h2>
+
+  <ion-fab bottom center>
+    <a href="tel:{{pet.contact.phone}}" ion-fab color="secondary"><ion-icon name="call"></ion-icon></a>
+  </ion-fab>
+</ion-content>
