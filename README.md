@@ -18,12 +18,12 @@ $ ionic start radarPet blank
 
     * Acessar a página da API: https://github.com/ionic-team/ionic-native-google-maps/blob/master/documents/README.md
     
-    * API: https://console.cloud.google.com/google/maps-apis/overview?project=teste-227412 
+    * API: https://console.cloud.google.com/google/maps-apis/overview
     * Instalar os componentes:
     ```
     $ ionic cordova plugin add cordova-plugin-googlemaps \
-        --variable API_KEY_FOR_ANDROID="AIzaSyCIyvlVETTjDy-nBRMGz4ZROH81AMCXSpE" \
-        --variable API_KEY_FOR_IOS="AIzaSyCIyvlVETTjDy-nBRMGz4ZROH81AMCXSpE"
+        --variable API_KEY_FOR_ANDROID="SUA-KEY-ANDROID" \
+        --variable API_KEY_FOR_IOS="SUA-KEY-IOS"
     $ npm install --save @ionic-native/core@4.8.0 @ionic-native/google-maps@4.8.2
     ```
 
@@ -41,7 +41,7 @@ $ ionic start radarPet blank
     * Configurar no `app.module.ts` o `import`
     * Configurar no `home.ts` o `import`
     * Configurar o `zoom: 14`
-    * Testar com a Latitude -23.1894908 e Longitude -45.9330525 (não utilizar o `-lc`)
+    * Testar com a Latitude -23.1894908 e Longitude -45.9330525 (não utilizar o `-lc` devido ao "bug" do emulador + live reload)
 
 4. Adicionar os Pets
     * Criar um novo provider chamado `petProvider`
