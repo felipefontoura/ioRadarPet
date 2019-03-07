@@ -2,7 +2,9 @@
 
 Aplicativo Ionic criado na aula ao vivo do Prof. Felipe Fontoura no dia 07-Mar-2019.
 
-## Roteiro
+Participe da Aula ao Vivo no Canal Dev Samurai: https://www.youtube.com/c/DevsamuraiBr/live
+
+## Roteiro da aula ao vivo
 
 1. Criar o projeto Ionic
 
