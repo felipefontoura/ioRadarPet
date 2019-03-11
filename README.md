@@ -1,4 +1,4 @@
-# RadarPET - Aplicativo de localização e recuperação de pets
+# RadarPET - Aplicativo de localização e recuperação de pets (versão Ionic)
 
 Aplicativo Ionic criado na aula ao vivo do Prof. Felipe Fontoura no dia 07-Mar-2019.
 
